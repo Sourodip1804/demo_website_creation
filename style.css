@@ -1,0 +1,171 @@
+.logo img {
+    width: 70px;
+    height: 154px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Segoe UI";
+}
+
+.right ul {
+    display: flex;
+    gap: 34px;
+
+}
+
+.right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.right ul li img {
+    width: 30px;
+    height: 30px;
+}
+
+.right ul li span {
+    padding: 0 9px;
+}
+
+.first {
+    display: flex;
+    /* background-color: aquamarine; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    margin: 70px;
+    font-family: sans-serif;
+}
+
+.first span {
+    font-size: 40px;
+}
+
+.first span img {
+
+    width: 44px;
+    padding: 5px;
+    margin: 12px 7px -8px;
+}
+
+.first p {
+    font-size: 21px;
+    width: 53vw;
+    text-align: center;
+}
+
+/* .first button {
+            background-color: #c5d72c;
+            width: 451px;
+            height: 38px;
+            padding: 14px 16px;
+            margin: 15px;
+            color: black;
+            border-radius: 12px; */
+/* } */
+.btn {
+    /* background-color: #c5d72c; */
+    background-color: transparent;
+
+    width: 451px;
+    height: 38px;
+    padding: 14px 16px;
+    margin: 15px 0;
+    color: black;
+    border-radius: 12px;
+    cursor: pointer;
+
+}
+
+/* .btn-small {} */
+
+.item {
+    background-color: #bab2b287;
+    padding: 24px;
+    border-radius: 12px;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.green {
+    background-color: rgb(16, 250, 16);
+}
+
+.blue {
+    background-color: aqua;
+}
+
+.flex {
+    display: flex;
+}
+
+.section second {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.small {
+    font-size: 17px;
+}
+
+.second {
+    /* display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; */
+    max-width: 79vw;
+    margin: auto;
+
+}
+
+.item-lang {
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 34px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+}
+
+.download :nth-child(2) {
+    font-size: 23px;
+
+}
+
+.download {
+    display: flex;
+    /* justify-content: center; */
+    /* gap: 13px; */
+    font-family: sans-serif;
+    align-items: center;
+}
+
+.download img {
+    width: 48px;
+    padding: 0px 12px;
+}
+
+@media screen and (max-width:1145px) {
+    .grid {
+        /* background-color: red; */
+        /* display: grid; */
+        grid-template-columns: 1fr ;
+        /* gap: 12px; */
+    }
+
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
